@@ -1,0 +1,41 @@
+cd C:\Users\Student\OneDrive - ADvTECH Ltd\Documents\NetBeansProjects\Part1; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.part1.Part1 \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.5.1:exec"
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Program%20Files/Apache%20NetBeans/java/maven/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+Scanning for projects...
+
+------------------------< com.mycompany:Part1 >-------------------------
+Building Part1 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ Part1 ---
+skip non existing resourceDirectory C:\Users\Student\OneDrive - ADvTECH Ltd\Documents\NetBeansProjects\Part1\src\main\resources
+
+--- compiler:3.13.0:compile (default-compile) @ Part1 ---
+Nothing to compile - all classes are up to date.
+
+--- exec:3.5.1:exec (default-cli) @ Part1 ---
+=== Chat App: Registration ===
+Enter first name: Kamogeo
+Enter last name: Mathebe
+Enter username (must contain '_' and be <= 5 characters): K_amo
+Enter password (min 8 chars, 1 capital, 1 number, 1 special char): Kamogelo*321
+Enter South African cell number (e.g. +27838968976): +27607335532
+
+Username successfully captured.
+Password successfully captured.
+Cell phone number successfully added.
+Registration successful!
+
+=== Chat App: Login ===
+Enter username: K_amo
+Enter password: Kamogelo*321
+Welcome Kamogeo, Mathebe it is great to see you again.
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  03:12 min
+Finished at: 2026-09-12T14:55:04+02:00
+------------------------------------------------------------------------
