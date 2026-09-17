@@ -9,7 +9,16 @@ import java.util.Scanner;
  * @author Student
  */
 public class Part1 {
+/*References
 
+Oracle (n.d.) Java documentation. Available at: https://docs.oracle.com/en/java/ (Accessed: 17 September 2026).
+
+Oracle (n.d.) Scanner (Java Platform SE). Available at: https://docs.oracle.com/en/java/javase/ (Accessed: 17 September 2026).
+
+W3Schools (n.d.) Java tutorial. Available at: https://www.w3schools.com/java/ (Accessed: 17 September 2026).
+
+*/
+    
     public static void main(String[] args) {
           Scanner scanner = new Scanner(System.in);
 
