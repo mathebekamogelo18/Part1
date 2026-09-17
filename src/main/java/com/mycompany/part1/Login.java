@@ -17,6 +17,11 @@ public class Login {
 
     private boolean isRegistered = false;
 
+    /*Oracle (n.d.) Class Pattern. Java Platform, Standard Edition Documentation. Available at: Oracle Java Pattern Documentation (Accessed: 17 September 2026).
+
+Oracle (n.d.) Java Platform, Standard Edition Documentation. Available at: Oracle Java Documentation (Accessed: 17 September 2026).
+    */
+    
     public Login(String firstName, String lastName, String username, String password, String cellPhoneNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
