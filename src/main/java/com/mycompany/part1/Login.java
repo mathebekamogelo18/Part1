@@ -24,6 +24,8 @@ Oracle (n.d.) Java Platform, Standard Edition Documentation. Available at: Oracl
     W3Schools (n.d.) Java Classes and Objects. Available at: W3Schools Java Classes and Objects (Accessed: 17 September 2026).
     
     W3Schools (n.d.) Java Classes and Objects. Available at: W3Schools Java Classes and Objects (Accessed: 17 September 2026).
+    
+    W3Schools (n.d.) Java Regular Expressions. Available at: W3Schools Java Regular Expressions (Accessed: 17 September 2026).
     */
     
     public Login(String firstName, String lastName, String username, String password, String cellPhoneNumber) {
