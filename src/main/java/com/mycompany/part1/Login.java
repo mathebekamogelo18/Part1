@@ -20,6 +20,10 @@ public class Login {
     /*Oracle (n.d.) Class Pattern. Java Platform, Standard Edition Documentation. Available at: Oracle Java Pattern Documentation (Accessed: 17 September 2026).
 
 Oracle (n.d.) Java Platform, Standard Edition Documentation. Available at: Oracle Java Documentation (Accessed: 17 September 2026).
+    
+    W3Schools (n.d.) Java Classes and Objects. Available at: W3Schools Java Classes and Objects (Accessed: 17 September 2026).
+    
+    W3Schools (n.d.) Java Classes and Objects. Available at: W3Schools Java Classes and Objects (Accessed: 17 September 2026).
     */
     
     public Login(String firstName, String lastName, String username, String password, String cellPhoneNumber) {
